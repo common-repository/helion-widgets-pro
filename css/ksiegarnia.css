@@ -1,0 +1,144 @@
+.helion_ksiegarnia .helion-polecane,
+.helion_ksiegarnia .helion-nowosc,
+.helion_ksiegarnia .helion-bestseller {
+    display: table;
+}
+
+.helion_ksiegarnia h2,
+.helion_ksiegarnia h2 code {
+    font-size: 22px;
+}
+
+.helion_ksiegarnia .helion-bestseller, 
+.helion_ksiegarnia .helion-kategoria, 
+.helion_ksiegarnia .helion-nowosc,
+.helion_ksiegarnia .helion-polecane {
+    padding: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+}
+
+.helion_ksiegarnia .helion-nowosc > a,
+.helion_ksiegarnia .helion-bestseller > a,
+.helion_ksiegarnia .helion-polecane > a {
+    float: left;
+}
+
+.helion_ksiegarnia .helion-polecane p, 
+.helion_ksiegarnia .helion-nowosc p,
+.helion_ksiegarnia .helion-bestseller p {
+    padding: 0;
+    margin: 7px 0 7px 0;
+}
+.helion-polecane p, 
+.helion-polecane span, 
+.helion-polecane a,
+.helion-nowosc p, 
+.helion-nowosc span, 
+.helion-nowosc a,
+.helion-bestseller p, 
+.helion-bestseller span, 
+.helion-bestseller a {
+    font-size: 12px;
+}
+
+.helion_ksiegarnia .info {
+    float: right;
+    width: 68%;
+}
+
+.helion_ksiegarnia .info a,
+.helion_ksiegarnia .info a:hover, 
+.helion-kategoria .info a,
+.helion-kategoria .info a:hover, 
+.helion_ksiazka h2 a,
+.helion_ksiazka h2 a:hover{
+    box-shadow: none;
+    font-family: canaro,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.helion_ksiegarnia a.cover {
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.helion-box a::after, 
+.helion-box a::before {
+    content: " ";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 3px;
+}
+
+.helion-box {
+    text-align: right;
+    font-family: canaro,sans-serif;
+    font-size: 16px;
+    margin: 15px auto;
+}
+
+.helion-box .helion-cena {
+    display: inline;
+    padding-right: 20px;
+}
+
+.helion-box a {
+    box-shadow: none;
+    background-color: #f0f0f0;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 16px;
+    display: inline-block;
+    height: 100%;
+    line-height: 36px;
+    position: relative;
+}
+
+.helion-box a:hover {
+    color: #fff;
+    background-color: #e4001e;
+    border: 1px solid #e6001e;
+    border-radius: 4px;
+    box-shadow: none;
+}
+.helion-box a:hover:before {
+    opacity:0;
+}
+.helion-box a:hover:after {
+    opacity:1;
+}
+.helion-box a::before {
+    left: 8px;
+    background: transparent url(../images/helion.svg) no-repeat -426px -321px;
+}
+.helion-box a::after {
+    left: 8px;
+    background: transparent url(../images/helion.svg) no-repeat -337px -321px;
+    opacity: 0;
+}
+
+.helion_widget_kategorie li.n:hover {
+    cursor: pointer;
+}
+
+ul.paginacja {
+    list-style: none;
+}
+ul.paginacja li {
+    display: inline;
+}
+ul.paginacja li.poprzednia {
+    float: left;
+}
+
+ul.paginacja li.nastepna {
+    float: right;
+}

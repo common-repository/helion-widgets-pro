@@ -1,0 +1,12 @@
+.helion_serp {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.helion_widget_wyszukiwarka form {
+    padding: 10px;
+}
+
+.helion_widget_wyszukiwarka input {
+    padding: 4px;
+}

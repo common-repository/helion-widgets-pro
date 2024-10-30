@@ -1,0 +1,78 @@
+.widget .helion_okladka {
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.widget .helion_meta {
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.widget .helion_cena {
+    color: #CC0000;
+    font-family: Georgia,Times New Roman,serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.widget .helion_cena sup {
+    font-size: 11px;
+}
+
+.widget .helion-box {
+    background-color: #f0f0f0;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    display: block;
+    height: 38px;
+    margin: 12px 0px;
+    overflow: hidden;
+    /*padding: 6px 6px 6px 20px;*/
+    position: relative;
+    text-align: left;
+}
+
+.widget .helion-box a::after, 
+.widget .helion-box a::before {
+    content: " ";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 3px;
+}
+
+.widget .helion-box a {
+    box-shadow: none;
+    padding-left: 50px;
+    font-size: 16px;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    line-height: 36px;
+}
+
+.widget .helion-box:hover {
+    background-color: #e4001e;
+    border: 1px solid #e6001e;
+    border-radius: 4px;
+}
+.widget .helion-box a:hover {
+    color: #fff;
+}
+.widget .helion-box a:hover:before {
+    opacity:0;
+}
+.widget .helion-box a:hover:after {
+    opacity:1;
+}
+.widget .helion-box a::before {
+    left: 8px;
+    background: transparent url(../images/helion.svg) no-repeat -426px -321px;
+}
+.widget .helion-box a::after {
+    left: 8px;
+    background: transparent url(../images/helion.svg) no-repeat -337px -321px;
+    opacity: 0;
+}
